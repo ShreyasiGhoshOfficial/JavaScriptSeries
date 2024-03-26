@@ -37,3 +37,26 @@ const myFunc=function(){ //function
 myFunc()
 
 //---------------------------------------------------------------------------------------------------------------
+
+//----------Stack And Heap Memory-----------------------
+//
+
+let str ="helo world"
+let str1 =str
+str1 ="gi world"
+
+console.log(str);
+console.log(str1);
+
+let obj1 ={
+    email: "xyz@gmail.com",
+    age:33,
+    name:"jiya",
+}
+console.log(obj1);
+let obj2 = obj1
+obj2.email = "fff@gmail.com"
+
+console.log(obj2);
+
+//---------------------------------------------------------------------------------------------
